@@ -7,7 +7,7 @@ same script can be used for migrating from
 2)VSTS one project to other
 3)TFS to vsts,vise-versa
 
-Prerequisite:
+##Prerequisite:
 1) create query for which you need to migrate in destination.
 2) personalization token ( if you want to migrate it to VSTS)
 3) Need a attjson.txt file in physical locaiton 
@@ -21,10 +21,10 @@ As apart of migration this script can take care of below actions:
 5) Linking Child and parent WI 
 6) History ( but only latest one can be possible)
 
-Note:
+##Note:
 1) While migrating custom fields from source to destination make sure custom fields which exist in source are need to be created in destination.If not update the if loops in script.
 
-Description of how the script works:
+##Description of how the script works:
 lets take if you are migrating EPIC workitem which has 2 feature child WI and in which feature has 4 child, 2 PBI and 2 bugs. You need to write a query in which it has Epic WI, based on WI listed using query ,it perform migrating all workitems which are listed as a part of query result. based on query result it will check what type of WI it is and it will create new WI and checks if it has child work item and it wil takecare of child and innerchild workitems aswell
 if you are migrating Epic workflow is
 1)create epic
