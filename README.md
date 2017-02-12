@@ -13,7 +13,7 @@ same script can be used for migrating from
 - Need a attjson.txt file in physical locaiton 
 - Need CSV file for exporting migrated list.
 
-##Actions:
+##Features:
 As apart of migration this script can take care of below actions:
 - Fields
 - creating New Workitem
