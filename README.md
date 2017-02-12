@@ -3,9 +3,9 @@ This script is used to migrate WI from TFS On Premise to VSTS and Vice-versa wit
 
 TFS Workitem Migration script is powershell scripts which uses TFS/Vsts apis to migrate work items based on query created.
 same script can be used for migrating from
-1)TFS on-premise one project to other 
-2)VSTS one project to other
-3)TFS to vsts,vise-versa
+- TFS on-premise one project to other 
+- VSTS one project to other
+- TFS to vsts,vise-versa
 
 ##Prerequisite:
 - create query for which you need to migrate in destination.
