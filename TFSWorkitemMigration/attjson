@@ -1,0 +1,17 @@
+[
+    {
+        "path":  "/fields/System.History",
+        "op":  "add",
+        "value":  "Adding the Attchment"
+    },
+    {
+        "path":  "/relations/-",
+        "op":  "add",
+        "value":  {
+                      "url":  "$URI",
+                      "attributes":  {
+        "comment": "Spec for the work"},
+                      "rel":  "AttachedFile"
+                  }
+    }
+]
